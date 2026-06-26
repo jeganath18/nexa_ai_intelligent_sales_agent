@@ -77,7 +77,7 @@ const app = express();
 app.use(express.json());
 
 // Hardcoded Render URL
-const BOT_WEBHOOK_URL = "https://jeganath.duckdns.org/telegram-webhook";
+const BOT_WEBHOOK_URL = "https://nexa_ai_intelligent_sales_agent7.atlas.in.net/telegram-webhook";
 
 // Initialize bot in webhook mode
 const bot = new TelegramBot("8348296956:AAH4BXG8peZ7aoooShsgj21V4IR9hnCprno", { polling: false });
