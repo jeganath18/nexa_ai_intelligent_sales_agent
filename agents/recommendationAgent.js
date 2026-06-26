@@ -59,7 +59,7 @@ function cosineSimilarity(a, b) {
 // ==============================
 // 1️⃣ gRPC Search implementation
 // ==============================
-function Search(call, callback) {
+async function Search(call, callback) {
   const { q = '', type, gender, qty = 1, offset = 0, limit = 3 } = call.request;
 
   console.log(`🔍 RecommendationAgent Search request ->`, call.request);
